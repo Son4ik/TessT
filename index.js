@@ -9,7 +9,7 @@ let currentIndex = 0; //текущий индекс слайда
 const slideCount = slideItems.length; //количество слайдов
 let autoSlideInterval; //id таймера для управления
 const autoSlideDelay = 3000; //каждые 3 секунды слайды переключаются
-
+//indiac
 //индикаторы
 function createIndicators() {
     for (let i = 0; i < slideCount; i++) {
@@ -73,4 +73,5 @@ function init() {
     //продолжать автопереключение, после того как убрано наведение
 //     slider.addEventListener("mouseleave", startAutoSlide);+
 }
+
 init();
